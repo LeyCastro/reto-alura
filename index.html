@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+  <link href="./css/styles.css" rel="stylesheet" />
+  <title>Reto Leyla Castro</title>
+</head>
+
+<body>
+  <main>
+    <section class="main">
+      <h1>by Leyla Castro</h1>
+      <input id="main__texto-procesar" class="main__texto-procesar" placeholder="Ingrese el texto aquí" />
+      <div class="container__footer">
+        <div class="container__nota">
+          <p>* Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="container__footer-botones">
+          <button class="boton primario" id="boton-encriptar">Encriptar</button>
+          <button class="boton secundario" id="boton-desencriptar">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+    <section class="side" id="side">
+      <div class="side__seccion-procesado" id="seccion-procesado">
+        <p id="texto-procesado"></p>
+        <button class="boton secundario copiar" id="boton-copiar">Copiar</button>
+      </div>
+      <div id="container__no-informacion" class="container__no-informacion">
+        <img src="./assets/imagen.png" alt="" class="imagen">
+        <div class="container__retroalimentacion">
+          <p class="titulo-retroalimentacion">Ningún mensaje fue encontrado</p>
+          <p class="texto-retroalimentacion">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
